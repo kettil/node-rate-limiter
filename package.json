@@ -1,40 +1,40 @@
 {
-    "name": "kettil-rate-limiter",
-    "version": "0.1.0",
-    "description": "Rate limiter with redis as a backend for vertically and horizontally scalable applications",
-    "author": "Kjell Dießel <development@kettil.de> (http://kettil.de)",
-    "keywords": [
-        "redis",
-        "rate",
-        "limit",
-        "limiter",
-        "express",
-        "middleware"
-    ],
-    "dependencies": {
-        "underscore":   "~1.7",
-        "q":            "~1.1"
-    },
-    "devDependencies": {
-        "assertthat":           "~0",
-        "cases":                "~0",
-        "grunt":                "~0",
-        "grunt-contrib-jshint": "~0",
-        "grunt-contrib-watch":  "~0",
-        "grunt-mocha-test":     "~0",
-        "grunt-env":            "~0",
-        "redis":                "~0"
-    },
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/kettil/node-rate-limiter"
-    },
-    "bugs": {
-        "url": "https://github.com/kettil/node-rate-limiter/issues"
-    },
-    "license": "MIT"
+  "name": "kettil-rate-limiter",
+  "version": "0.1.1",
+  "description": "Rate limiter with redis as a backend for vertically and horizontally scalable applications",
+  "author": "Kjell Dießel <development@kettil.de> (http://kettil.de)",
+  "keywords": [
+    "redis",
+    "rate",
+    "limit",
+    "limiter",
+    "express",
+    "middleware"
+  ],
+  "dependencies": {
+    "underscore": "~1.7",
+    "q": "~1.1"
+  },
+  "devDependencies": {
+    "assertthat": "~0",
+    "cases": "~0",
+    "grunt": "~0",
+    "grunt-contrib-jshint": "~0",
+    "grunt-contrib-watch": "~0",
+    "grunt-mocha-test": "~0",
+    "grunt-env": "~0",
+    "redis": "~0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/node-rate-limiter"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/node-rate-limiter/issues"
+  },
+  "license": "MIT"
 }
