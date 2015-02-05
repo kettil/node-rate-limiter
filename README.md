@@ -8,6 +8,8 @@ The module counts the requests from a browser, API, or other.
 When you reach a certain limit in a given period, appropriate measures can be taken.
 The Module supports the clustering feature of node.js and/or it can run on multiple servers.
 
+Supports promise [with q](https://www.npmjs.com/package/q).
+
 ### Delay-Mode
 
 If a delay is defined, all calls are delayed, when the limit is reached.
@@ -69,7 +71,7 @@ rateLimiter.exec('my-uniqid-id', function(err, limit, remaining, reset, withDela
 });
 
 
-// or per promises [with q](https://www.npmjs.com/package/q)
+// or per promises with q ( https://www.npmjs.com/package/q )
 rateLimiter.exec('my-uniqid-id').spread(function(limit, remaining, reset, withDelay) {
     // ...
 }).fail(function(err) {
