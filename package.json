@@ -12,18 +12,18 @@
     "middleware"
   ],
   "dependencies": {
-    "underscore": "~1.7",
-    "q": "~1.1"
+    "underscore": "1.7",
+    "q": "1.1"
   },
   "devDependencies": {
-    "assertthat": "~0",
-    "cases": "~0",
-    "grunt": "~0",
-    "grunt-contrib-jshint": "~0",
-    "grunt-contrib-watch": "~0",
-    "grunt-mocha-test": "~0",
-    "grunt-env": "~0",
-    "redis": "~0"
+    "assertthat": "0.3",
+    "cases": "0.1",
+    "grunt": "0.4",
+    "grunt-contrib-jshint": "0.10",
+    "grunt-contrib-watch": "0.6",
+    "grunt-mocha-test": "0.12",
+    "grunt-env": "0.4",
+    "redis": "0.12"
   },
   "main": "index.js",
   "scripts": {
