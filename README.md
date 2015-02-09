@@ -40,6 +40,12 @@ res.header('Retry-After', Math.ceil(reset / 1000));
 
 - Redis 2.6.12+ (2.8 recommended)
 
+## Install
+
+```
+$ npm install kettil-rate-limiter
+```
+
 ## Usage
 
 ```
