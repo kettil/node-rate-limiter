@@ -1,6 +1,6 @@
 {
   "name": "kettil-rate-limiter",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Rate limiter with redis as a backend for vertically and horizontally scalable applications",
   "author": "Kjell Dießel <development@kettil.de> (http://kettil.de)",
   "keywords": [
